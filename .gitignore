@@ -25,4 +25,4 @@ hs_err_pid*
 # Eclipse Ignore File
 .classpath
 .project
-**/.settings/
+**/settings/
