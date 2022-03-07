@@ -64,6 +64,7 @@ public class Sample01 {
 		float f1 = 5.0f;	// 접두사로 f 를 반드시 작성해야 한다.
 		double d1 = 6.0;
 		
+		
 
 	}
 
