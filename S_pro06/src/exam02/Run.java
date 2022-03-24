@@ -13,7 +13,15 @@ public class Run {
 		r.setSubject(subjects);
 		
 		r.setGrades("수학", 92.5);
-		System.out.println(Arrays.toString(r.getGrades()));
+//		System.out.println(Arrays.toString(r.getGrades()));
+		System.out.println(r.getGrade("수학"));
+		
+		System.out.println(r.getGrade("사회"));
+		
+		r.addSubject("과학", 86.9);
+		System.out.println(r.getGrade("과학"));
+		
+		
 		
 	}
 
