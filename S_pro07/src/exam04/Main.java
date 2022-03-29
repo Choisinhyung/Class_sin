@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		Normal c1 = new Normal(); 
 		
-		premium p1 = new premium();
+		Premium p1 = new Premium();
 		
 		c1.buy("루이비통", 3000000);
 		

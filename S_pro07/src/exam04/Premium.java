@@ -2,7 +2,7 @@ package exam04;
 
 import java.util.Objects;
 
-public class premium extends Customer {
+public class Premium extends Customer {
 	private String discount; //할인율
 	private int priceTotal; //누적 구입액
 	
