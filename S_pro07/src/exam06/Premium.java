@@ -26,6 +26,18 @@ public class Premium extends Customer {
 		double p = _calcDiscount(price);
 		System.out.printf("%s 상품을 %.2f 할인율 적용하여 %,.1f 원에 구입하였습니다.\n", productName, discount, p);
 	}
+	@Override // 메서드타입. 명. 매개변수가 모두 같아야 오버라이딩 가능
+	public Customer renewal() { // Customer 객체로 리턴
+		Customer c = this;
+		if(priceTotal < 5000000) {
+			c = new Normal(); // 일반고객생성
+			c.setName(getName()); // 정보 추가
+			c.setAge(getAge());
+			c.setGender(getGender());
+			System.out.println("누적사용액이 기준에 미달하여 일반 고객으로 강등 조치되었습니다.");
+		}
+		return c; //리턴
+	}
 	
 	private double _calcDiscount(int price) {
 		if(priceTotal >= 10000000) {
@@ -41,4 +53,5 @@ public class Premium extends Customer {
 			return price;
 		}
 	}
+	
 }
