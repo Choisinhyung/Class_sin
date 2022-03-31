@@ -15,6 +15,10 @@ public class Main {
 		 * 		- 인터페이스는 다중 상속이 가능하다.
 		 * 		- 인터페이스로 객체 생성은 할 수 없지만, 참조타입으로는 사용할 수 있다.(업캐스팅, 다운캐스팅)
 		 */
+		
+//		Shape s1 = new Shape(); // 안됨
+		Shape s2 = new Circle();
+		Shape s3 = new Square();
 
 	}
 
