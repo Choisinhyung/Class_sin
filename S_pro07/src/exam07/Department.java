@@ -4,6 +4,7 @@ package exam07;
 public class Department extends Assistant {
 
 	private boolean teamManager;	// 팀장직을 가지고 있는지 true, false 로 구분
+	// 과장부터 팀장직을 부여한다.
 	
 	public Department(String name, int age) {
 		super(name, age);
