@@ -1,5 +1,7 @@
 package S_0331;
+
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class Sample02 {
 	
@@ -7,11 +9,24 @@ public class Sample02 {
 	
 	public void ex01() {
 		/*
-		 * 사용자 입력으로 정수값 입력을 받을 때 한번의 입력으로 1개 이상의 정수값을 받을 수 있도록 한다
+		 * 사용자 입력으로 정수값 입력을 받을 때 한번의 입력으로 1개 이상의 정수값을
+		 * 받을 수 있도록 한다.(nextLine() 메서드를 사용해야 함)
+		 * 
+		 * 예)
+		 *     정수값 입력 : 10 20 30 40 50
+		 *     
+		 *     다음의 값을 입력하였습니다.
+		 *     10, 20, 30, 40, 50
 		 */
-		System.out.println("정수값 입력 : ");
+		System.out.print("정수값 입력 : ");
 		String input = sc.nextLine();
 		String[] sArr = input.split(" ");
+		
+		int[] iArr = new int[sArr.length];
+		for(int i = 0; i < sArr.length; i++) {
+			iArr[i] = Integer.parseInt(sArr[i]);
+		}
+		System.out.println(Arrays.toString(iArr));
 		
 		System.out.println("다음의 값을 입력하였습니다.");
 		System.out.println(String.join(", ", sArr));
