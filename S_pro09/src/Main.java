@@ -1,8 +1,7 @@
-package S_040402;
-
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
-import S_040403.MenuManager;
+import controller.MenuManager;
 
 public class Main {
 
