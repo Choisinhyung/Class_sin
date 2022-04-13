@@ -37,4 +37,9 @@ public class Assistant extends Employee {
 		this.corpCardTotal = corpCardTotal;
 	}
 
+	public void teamPayBonus(boolean confirm) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

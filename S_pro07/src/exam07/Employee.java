@@ -51,6 +51,11 @@ public class Employee {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
+
+	public void teamPayBonus(boolean confirm) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 }
