@@ -69,5 +69,26 @@ public class Sample01 {
 	s1 = "010-1234-5678";
 	boolean isPhone = s1.matches("\\d{3}-\\d{4}-\\d{4}"); //정규표현식
 	System.out.println(isPhone);
+	
+	s1 = String.format("%s-%s-%s", "010", "1234", "5678"); //문자열을 생성 / printf는 출력 후 소멸됨
+	System.out.println(s1);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	}
 }
