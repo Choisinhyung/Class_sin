@@ -19,7 +19,7 @@ public class Sample01 {
 		
 		PersonPub p1 = new PersonPub();
 		PersonDef p2 = new PersonDef(); // p2라는 참조변수 생성 / personDef 기본생성자 호출
-		
+	
 		System.out.println("실행 완료!");
 
 	}

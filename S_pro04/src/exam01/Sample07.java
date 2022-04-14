@@ -18,7 +18,7 @@ public class Sample07 {
 		
 		// 자바의 기본 기능을 사용한 깊은 복사
 		int[] arr3 = new int[arr1.length];
-		System.arraycopy(arr1, 0, arr3, 2, arr1.length - 2);
+		System.arraycopy(arr1, 0, arr3, 2, arr1.length - 2); // arr1과 arr3의 0번째 인덱스를 arr1의 길이 -2만큼 깊은복사
 		
 		// arr1[0] = 10;
 		for(int i = 0; i < arr1.length; i++) {
