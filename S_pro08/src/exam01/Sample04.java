@@ -17,6 +17,15 @@ public class Sample04 {
 		while(st1.hasMoreTokens()) {
 			System.out.println(st1.nextToken());
 		}
+		
+		String phone1 = "010-2266-3644";
+		StringTokenizer st2 = new StringTokenizer(phone1, "-");
+		
+		System.out.println(st2.countTokens());
+		
+		while(st2.hasMoreTokens()) {
+			System.out.println(st2.nextToken());
+		}
 	}
 
 }
