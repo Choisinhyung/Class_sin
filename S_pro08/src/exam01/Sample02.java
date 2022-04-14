@@ -1,6 +1,7 @@
 package exam01;
 
 import java.util.Scanner;
+
 import java.util.Arrays;
 
 public class Sample02 {
@@ -98,4 +99,12 @@ public class Sample02 {
 		}
 	}
 	
+	public static void main(String[] args) {
+		Sample02 sample02 = new Sample02();
+		sample02.ex01();
+//		sample02.ex02();
+//		sample02.ex03();
+//		sample02.ex04();
+	
+	}
 }
