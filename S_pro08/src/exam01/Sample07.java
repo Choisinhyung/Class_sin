@@ -114,9 +114,9 @@ public class Sample07 {
 
 	public static void main(String[] args) {
 		Sample07 sample = new Sample07();
-		// sample.ex01();
-//		sample.ex02();
-		// sample.ex03();
+//		 sample.ex01();
+//  		 sample.ex02();
+//		 sample.ex03();
 	}
 
 }
