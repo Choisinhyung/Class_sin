@@ -21,7 +21,7 @@ public class MyException {
 	private void exceptionRun() throws Exception {
 		//에러를 발생 시키기 위한 메서드
 		System.out .println("에러 발생!");
-		throw new Exception();
+		throw new UserDefindException("사용자 정의 에러가 발생하였습니다. ");
 	}
 
 }
