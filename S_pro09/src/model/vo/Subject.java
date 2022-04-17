@@ -1,9 +1,9 @@
-package model;
+package model.vo;
 
-// 과목 정보를 가지는 클래스
+//과목 정보를 가지는 클래스
 public class Subject {
 	/*
-	 * 과목명(name) 과 getter/setter 만 정의
+	 * 과목명(name)과 getter/setter만 정의
 	 */
 	private String name;
 	
